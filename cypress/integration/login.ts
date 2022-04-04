@@ -8,7 +8,7 @@ describe("Gmail login", function () {
     cy.visit("https://accounts.google.com");
     loginObj.typeuserEmail("topexcellenttesting@gmail.com");
     loginObj.clickNextBtn();
-    loginObj.typeUserPassword("Amblessed");
+    loginObj.typeUserPassword("xxxxxxx");
     loginObj.clickLoginBtn();
   });
 
